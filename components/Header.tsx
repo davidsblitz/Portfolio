@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Header(){return <header className="site-header"><div className="container nav"><Link className="brand" href="/">David Blitz</Link><nav className="navlinks"><Link href="/experience">Experience</Link><Link href="/projects">Projects</Link><Link href="/about">About</Link><Link href="/resume">Resume</Link><Link href="/contact">Contact</Link><a href="https://github.com/davidsblitz" target="_blank" rel="noreferrer">GitHub ↗</a></nav></div></header>}
